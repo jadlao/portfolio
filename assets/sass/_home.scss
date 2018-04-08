@@ -1,0 +1,157 @@
+.home {
+  position: relative;
+  .logo {
+    border-bottom: 1px solid $black;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .icon {
+      height: 100px;
+      width: 100px;
+      margin-bottom: 54px;
+    }
+  }
+  .info-section {
+    padding: 54px;
+    background-image: url('https://image.ibb.co/gC14Bc/graphy_finlight.png');
+    width: 35%;
+    max-width: 308px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    color: $black;
+    .info-box {
+      position: absolute;
+      top: 155xpx;
+      h5 {
+        margin: 2.2rem 0 0.7rem 0;
+      }
+      p {
+        font-size: 0.8rem;
+        font-weight: 100;
+        a {
+          color: $black;
+          text-decoration: none;
+          transition: color 0.3s ease-in-out;
+          &:hover {
+            color: $blue-bg;
+          }
+        }
+      }
+    }
+  }
+  .content-area {
+    background: white;
+    width: 65%;
+    margin-left: 35%;
+    height: 100%;
+    padding: 100px 10% 0 10%;
+    .profile-section {
+      vertical-align: top;
+      display: inline-block;
+      max-width: 500px;
+      padding: 20% 0 250px;
+      margin-left: -25px;
+      .profile {
+        h1 {
+          line-height: 1.2;
+          margin: 0 0 1rem;
+        }
+        h5 {
+          line-height: 0.5;
+          margin: 0 0 2rem;
+        }
+        p {
+          font-weight: 300;
+          margin: 0 0 2rem;
+        }
+      }
+    }
+  }
+}
+
+// xl screen
+@media screen and (min-width: 881px) {
+  .home {
+    .content-area {
+      margin-left: 300px;
+      padding: 100px 0 0 10%;
+    }
+  }
+}
+
+// tablet
+@media screen and (max-width: 880px) {
+  .home {
+    .top-nav-wrapper {
+      height: 90px;
+      background: $grey-bg;
+      .menu-icon {
+        top: 10px;
+        right: 10%;
+      }
+    }
+    .info-section {
+      background: transparent;
+      .logo-link {
+        .logo {
+          position: absolute;
+          font-size: 1.5rem;
+          border: none;
+          height: 70px;
+          width: 150px;
+          top: 8px;
+          left: 0;
+          .icon {
+            height: 52px;
+            width: 52px;
+            margin-bottom: 0;
+          }
+        }
+      }
+      .info-box {
+        display: none;
+      }
+    }
+    .content-area {
+      position: relative;
+      width: 100%;
+      margin-left: 0;
+      z-index: 100;
+    }
+  }
+}
+
+// mobile
+@media screen and (max-width: 451px) {
+  .home {
+    .top-nav-wrapper {
+      .menu-icon {
+        top: 13.5px;
+        right: 10px;
+      }
+    }
+    .info-section {
+      background: transparent;
+      .logo-link {
+        .logo {
+          position: absolute;
+          border: none;
+          height: 70px;
+          width: 150px;
+          top: 9px;
+          left: -20px;
+        }
+      }
+    }
+    .content-area {
+      padding: 20px;
+      .profile-section {
+        margin-left: 0;
+      }
+    }
+  }
+}

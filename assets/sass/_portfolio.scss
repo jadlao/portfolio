@@ -1,0 +1,135 @@
+.portfolio-section {
+  margin-top: -20px;
+  margin-left: -85px;
+  padding: 0 50px 0 50px;
+  margin-right: -10%;
+  margin-bottom: 100px;
+  .portfolio {
+    .title {
+      h1 {
+        margin-bottom: 50px;
+      }
+      h5 {
+        margin-bottom: 30px;
+      }
+    }
+    .work-section {
+      .project-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2px;
+        .project-box {
+          position: relative;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          height: 343px;
+          padding: 30px;
+          transition: all 0.5s ease-in-out;
+          cursor: pointer;
+          &:hover {
+            -webkit-box-shadow: 4px 4px 55px -1px rgba(0, 0, 0, 0.12);
+            -moz-box-shadow: 4px 4px 55px -1px rgba(0, 0, 0, 0.12);
+            box-shadow: 4px 4px 55px -1px rgba(0, 0, 0, 0.12);
+          }
+          .grey-bg {
+            background: $lightgrey;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            opacity: 0;
+            overflow: hidden;
+            transition: all 0.3s ease-in-out;
+            &:hover {
+              opacity: 0.9;
+              h4,
+              p {
+                transform: translate3d(0, 0, 0);
+              }
+            }
+          }
+
+          h4,
+          p {
+            position: absolute;
+            bottom: 0;
+            padding: 15px 20px 30px 20px;
+            opacity: 1;
+            transform: translate3d(-200px, 0, 0);
+            transition: all 0.3s ease-in-out;
+          }
+          h4 {
+            transition-delay: 0.1s;
+            font-size: 1.1rem;
+            font-weight: 500;
+            letter-spacing: 0.8px;
+          }
+          p {
+            bottom: 90px;
+            left: -20px;
+            padding: 10px 20px;
+            font-size: 0.8rem;
+            font-weight: 100;
+            a {
+              color: $black;
+              padding: 10px 20px;
+              transition: all 0.3s ease-in-out;
+              &:hover {
+                color: $blue-bg;
+              }
+            }
+          }
+          p:nth-child(2) {
+            bottom: 60px;
+            transition-delay: 0.05s;
+          }
+          i {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 30px 20px;
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+// laptop
+@media screen and (max-width: 1008px) {
+  .portfolio-section {
+    margin-right: 0;
+    .portfolio {
+      .work-section {
+        .project-section {
+          display: block;
+          .project-box {
+            margin-bottom: 2px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// tablet and smaller
+@media screen and (max-width: 880px) {
+  .portfolio-section {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 100px;
+    padding: 0;
+  }
+}
+
+// mobile
+@media screen and (max-width: 451px) {
+  .portfolio-section {
+    margin-top: 30px;
+    padding: 0;
+  }
+}

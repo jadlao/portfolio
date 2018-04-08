@@ -1,0 +1,103 @@
+.contact-section {
+  margin-top: -20px;
+  margin-left: -85px;
+  margin-right: -10%;
+  padding: 0 50px 100px 50px;
+  margin-bottom: 240px; // extends bottom sidebar
+  .contact {
+    h1 {
+      margin-bottom: 18px;
+    }
+    h5 {
+      margin-bottom: 30px;
+    }
+    .contact-form {
+      h5 {
+        margin-bottom: 50px;
+      }
+      input {
+        display: block;
+        margin-bottom: 20px;
+        padding: 10px;
+        font-size: 0.8rem;
+        font-weight: 300;
+        line-height: 2.1;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #333;
+        width: 70%;
+        max-width: 500px;
+        &::placeholder {
+          color: $lightgrey;
+          font-weight: 300;
+        }
+      }
+      textarea {
+        padding: 10px;
+        font-size: 0.8rem;
+        font-weight: 300;
+        line-height: 2.1;
+        margin-bottom: 20px;
+        border: none;
+        border-bottom: 1px solid #333;
+        width: 70%;
+        max-width: 500px;
+        outline: none;
+        &::placeholder {
+          color: $lightgrey;
+          font-weight: 300;
+        }
+      }
+      button {
+        display: block;
+        padding: 20px 50px;
+        border: none;
+        background: $blue-bg;
+        color: $white;
+        cursor: pointer;
+        transition: $btnTransitions;
+        width: 70%;
+        max-width: 500px;
+        font-size: 0.9rem;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        &:hover {
+          color: $white;
+          background: $black;
+        }
+      }
+    }
+  }
+}
+
+// tablet
+@media screen and (max-width: 880px) {
+  .contact-section {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 100px;
+    padding: 0;
+    .contact {
+      .contact-form {
+        input,
+        textarea,
+        button {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+
+// mobile
+@media screen and (max-width: 451px) {
+  .contact-section {
+    margin-top: 30px;
+    padding: 0;
+    .contact {
+      width: 100%;
+    }
+  }
+}
