@@ -28,13 +28,19 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+var encode = function encode(data) {
+  return Object.keys(data).map(function (key) {
+    return encodeURIComponent(key) + '=' + encodeURIComponent(data[key]);
+  }).join('&');
+};
+
 var Contact = function (_Component) {
   _inherits(Contact, _Component);
 
-  function Contact() {
+  function Contact(props) {
     _classCallCheck(this, Contact);
 
-    var _this = _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).call(this));
+    var _this = _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).call(this, props));
 
     _this.state = {
       name: '',
@@ -763,7 +769,7 @@ var portfolioData = [{
   image: 'https://image.ibb.co/eUnZjn/thumb_mysatoshi.png'
 }, {
   title: 'Olooq Landing Page',
-  live_link: 'https://josefadlao.com/olooqLandingPage/',
+  live_link: 'https://jadlao-olooq.surge.sh/',
   code_link: 'https://github.com/jadlao/olooqLandingPage',
   image: 'https://image.ibb.co/nq93c7/thumb_olooq.png'
 }, {
@@ -773,7 +779,7 @@ var portfolioData = [{
   image: 'https://image.ibb.co/fSR5qS/thumb_spotify.png'
 }, {
   title: 'LikeHome Website',
-  live_link: 'https://josefadlao.com/likehome/',
+  live_link: 'https://jadlao-likehome.surge.sh/',
   code_link: 'https://github.com/jadlao/likehome',
   image: 'https://image.ibb.co/nBAWrc/thumb_likehome.png'
 }];

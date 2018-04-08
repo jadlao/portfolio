@@ -7,7 +7,7 @@ var portfolioData = [
   },
   {
     title: 'Olooq Landing Page',
-    live_link: 'https://josefadlao.com/olooqLandingPage/',
+    live_link: 'https://jadlao-olooq.surge.sh/',
     code_link: 'https://github.com/jadlao/olooqLandingPage',
     image: 'https://image.ibb.co/nq93c7/thumb_olooq.png'
   },
@@ -19,7 +19,7 @@ var portfolioData = [
   },
   {
     title: 'LikeHome Website',
-    live_link: 'https://josefadlao.com/likehome/',
+    live_link: 'https://jadlao-likehome.surge.sh/',
     code_link: 'https://github.com/jadlao/likehome',
     image: 'https://image.ibb.co/nBAWrc/thumb_likehome.png'
   }
