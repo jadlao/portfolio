@@ -2,8 +2,7 @@
   margin-top: -20px;
   margin-left: -85px;
   padding: 0 50px 0 50px;
-  margin-right: -10%;
-  margin-bottom: 100px;
+  margin-right: -10%; //margin-bottom: 50px;
   .portfolio {
     .title {
       h1 {
@@ -27,7 +26,6 @@
           height: 343px;
           padding: 30px;
           transition: all 0.5s ease-in-out;
-          cursor: pointer;
           &:hover {
             -webkit-box-shadow: 4px 4px 55px -1px rgba(0, 0, 0, 0.12);
             -moz-box-shadow: 4px 4px 55px -1px rgba(0, 0, 0, 0.12);
@@ -51,7 +49,6 @@
               }
             }
           }
-
           h4,
           p {
             position: absolute;
@@ -68,7 +65,7 @@
             letter-spacing: 0.8px;
           }
           p {
-            bottom: 90px;
+            bottom: 120px;
             left: -20px;
             padding: 10px 20px;
             font-size: 0.8rem;
@@ -83,8 +80,13 @@
             }
           }
           p:nth-child(2) {
-            bottom: 60px;
+            bottom: 90px;
             transition-delay: 0.05s;
+          }
+          p:nth-child(3) {
+            bottom: 60px;
+            transition-delay: 0.07s;
+            left: 0;
           }
           i {
             position: absolute;

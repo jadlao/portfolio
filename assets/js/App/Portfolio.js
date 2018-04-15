@@ -30,6 +30,9 @@ export default class Portfolio extends Component {
                 View code
               </a>
             </p>
+            <p>
+                Technologies: {project.technologies}
+            </p>
             <h4>{project.title}</h4>
             <i className="fa fa-angle-right" />
           </div>

@@ -3,7 +3,7 @@
   margin-left: -85px;
   margin-right: -10%;
   padding: 0 50px 100px 50px;
-  margin-bottom: 240px; // extends bottom sidebar
+  margin-bottom: 100px; // extends bottom
   .contact {
     h1 {
       margin-bottom: 18px;
@@ -31,11 +31,16 @@
           color: $lightgrey;
           font-weight: 300;
         }
+        &:invalid {
+          box-shadow: none;
+        }
       }
       textarea {
         padding: 10px;
         font-size: 0.8rem;
         font-weight: 300;
+        font-family: 'Raleway', sans-serif;
+        color: $black;
         line-height: 2.1;
         margin-bottom: 20px;
         border: none;
@@ -46,6 +51,7 @@
         &::placeholder {
           color: $lightgrey;
           font-weight: 300;
+          font-family: 'Raleway', sans-serif;
         }
       }
       button {
