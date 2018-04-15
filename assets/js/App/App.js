@@ -79,6 +79,12 @@ class App extends Component {
           <Link className="logo-link" to="/">
             <div className="logo">
               <Icon className="icon" />
+              <div className="icon-layer">
+                <div className="icon-info">
+                  Josef <br />Adlao
+                </div>
+                <div className="icon-info-mobile">JA</div>
+              </div>
             </div>
           </Link>
           <div className="info-box">

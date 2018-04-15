@@ -1,6 +1,7 @@
 .home {
   position: relative;
   .logo {
+    position: relative;
     border-bottom: 1px solid $black;
     height: 100px;
     width: 200px;
@@ -8,9 +9,43 @@
     justify-content: center;
     align-items: center;
     .icon {
+      position: relative;
       height: 100px;
       width: 100px;
       margin-bottom: 54px;
+      border-radius: 50%;
+    }
+    .icon-layer {
+      position: absolute;
+      z-index: 10;
+      height: 100px;
+      width: 100px;
+      bottom: 25px;
+      border-radius: 50%;
+      background: transparent;
+      transition: all 0.4s ease-in-out;
+      .icon-info {
+        color: $white;
+        line-height: 1.7;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-top: 25px;
+        margin-left: 2px;
+        font-size: 0.8rem;
+        opacity: 0;
+        transition: all 0.4s ease-in-out;
+      }
+      .icon-info-mobile {
+        opacity: 0;
+      }
+      &:hover {
+        box-shadow: inset 0 0 0 110px $gold,
+          inset 0 0 0 16px rgba(255, 255, 255, 0.8),
+          0 1px 2px rgba(0, 0, 0, 0.1);
+        .icon-info {
+          opacity: 1;
+        }
+      }
     }
   }
   .info-section {
@@ -110,6 +145,32 @@
             height: 52px;
             width: 52px;
             margin-bottom: 0;
+          }
+          .icon-layer {
+            height: 52px;
+            width: 52px;
+            bottom: 9px;
+            background: transparent;
+            .icon-info {
+              opacity: 0;
+            }
+            .icon-info-mobile {
+              position: absolute;
+              color: $white;
+              letter-spacing: 2px;
+              margin-top: -55px;
+              margin-left: 17px;
+              font-size: 0.8rem;
+              transition: all 0.4s ease-in-out;
+            }
+            &:hover {
+              box-shadow: inset 0 0 0 110px $gold,
+                inset 0 0 0 10px rgba(255, 255, 255, 0.8),
+                0 1px 2px rgba(0, 0, 0, 0.1);
+              .icon-info-mobile {
+                opacity: 1;
+              }
+            }
           }
         }
       }

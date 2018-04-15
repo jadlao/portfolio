@@ -604,7 +604,23 @@ var App = function (_Component) {
             _react2.default.createElement(
               'div',
               { className: 'logo' },
-              _react2.default.createElement(_laptopIcon2.default, { className: 'icon' })
+              _react2.default.createElement(_laptopIcon2.default, { className: 'icon' }),
+              _react2.default.createElement(
+                'div',
+                { className: 'icon-layer' },
+                _react2.default.createElement(
+                  'div',
+                  { className: 'icon-info' },
+                  'Josef ',
+                  _react2.default.createElement('br', null),
+                  'Adlao'
+                ),
+                _react2.default.createElement(
+                  'div',
+                  { className: 'icon-info-mobile' },
+                  'JA'
+                )
+              )
             )
           ),
           _react2.default.createElement(
