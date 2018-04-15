@@ -696,7 +696,7 @@ var App = function (_Component) {
               null,
               _react2.default.createElement(
                 'a',
-                { href: 'mailto:josef@josefadlao.com', target: '_blank' },
+                { href: 'mailto:jadlao@gmail.com', target: '_blank' },
                 _data2.default[0].info.email
               )
             ),
@@ -761,7 +761,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 var data = [{
   info: {
-    email: 'josef@josefadlao.com',
+    email: 'jadlao@gmail.com',
     twitter: 'https://twitter.com/josefadlao',
     github: 'https://github.com/jadlao',
     linkedin: 'https://www.linkedin.com/in/josefadlao/'

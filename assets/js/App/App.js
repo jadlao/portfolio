@@ -102,7 +102,7 @@ class App extends Component {
             <p>MySQL</p>
             <h5 className="contact">Email</h5>
             <p>
-              <a href="mailto:josef@josefadlao.com" target="_blank">
+              <a href="mailto:jadlao@gmail.com" target="_blank">
                 {data[0].info.email}
               </a>
             </p>
