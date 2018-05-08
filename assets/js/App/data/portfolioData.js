@@ -1,11 +1,11 @@
 var portfolioData = [
-  {
-    title: 'Real Estate Website',
-    live_link: 'https://jadlao-realestate.surge.sh/',
-    code_link: 'https://github.com/jadlao/react-realestate',
-    technologies: 'React, SASS',
-    image: 'https://image.ibb.co/eUnZjn/thumb_mysatoshi.png'
-  },
+  // {
+  //   title: 'LuxRentals',
+  //   live_link: 'https://jadlao-realestate.surge.sh/',
+  //   code_link: 'https://github.com/jadlao/react-realestate',
+  //   technologies: 'React, SASS',
+  //   image: 'https://image.ibb.co/eUnZjn/thumb_mysatoshi.png'
+  // },
   {
     title: 'MySatoshiConverter',
     live_link: 'https://mysatoshiconverter.com/',
