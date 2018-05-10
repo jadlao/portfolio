@@ -784,15 +784,13 @@ exports.default = data;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var portfolioData = [
-// {
-//   title: 'LuxRentals',
-//   live_link: 'https://jadlao-realestate.surge.sh/',
-//   code_link: 'https://github.com/jadlao/react-realestate',
-//   technologies: 'React, SASS',
-//   image: 'https://image.ibb.co/eUnZjn/thumb_mysatoshi.png'
-// },
-{
+var portfolioData = [{
+  title: 'LuxRentals',
+  live_link: 'https://jadlao-realestate.surge.sh/',
+  code_link: 'https://github.com/jadlao/react-realestate',
+  technologies: 'React, SASS',
+  image: 'https://image.ibb.co/mRRA8y/thumb_luxrentals.png'
+}, {
   title: 'MySatoshiConverter',
   live_link: 'https://mysatoshiconverter.com/',
   code_link: 'https://mysatoshiconverter.com/',
