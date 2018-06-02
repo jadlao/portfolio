@@ -8,6 +8,7 @@ import Contact from './Contact';
 import Icon from 'svg-react-loader?name=Icon!../../../public/img/laptop-icon.svg';
 import Hamburger from 'svg-react-loader?name=Hamburger!../../../public/img/hamburger.svg';
 import Close from 'svg-react-loader?name=Close!../../../public/img/close.svg';
+import Favicon from 'react-favicon';
 
 class App extends Component {
   constructor() {
@@ -52,6 +53,7 @@ class App extends Component {
   render() {
     return (
       <div className={`home ${this.state.menu ? 'menu-active' : ''}`}>
+        <Favicon url="https://image.ibb.co/gNNgCd/laptop_icon.png"/>
         <div className="top-nav-wrapper">
           <div className="menu-icon" onClick={this.toggleMenu}>
             {this.switchIcons()}

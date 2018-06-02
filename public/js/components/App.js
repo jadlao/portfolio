@@ -379,7 +379,7 @@ exports.default = Portfolio;
 
 /***/ }),
 
-/***/ 123:
+/***/ 124:
 /***/ (function(module, exports, __webpack_require__) {
 
 var React = __webpack_require__(5);
@@ -399,7 +399,7 @@ Close.default = Close;
 
 /***/ }),
 
-/***/ 124:
+/***/ 125:
 /***/ (function(module, exports, __webpack_require__) {
 
 var React = __webpack_require__(5);
@@ -419,7 +419,7 @@ Hamburger.default = Hamburger;
 
 /***/ }),
 
-/***/ 125:
+/***/ 126:
 /***/ (function(module, exports, __webpack_require__) {
 
 var React = __webpack_require__(5);
@@ -439,7 +439,7 @@ Icon.default = Icon;
 
 /***/ }),
 
-/***/ 126:
+/***/ 127:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -473,17 +473,21 @@ var _Contact = __webpack_require__(119);
 
 var _Contact2 = _interopRequireDefault(_Contact);
 
-var _laptopIcon = __webpack_require__(125);
+var _laptopIcon = __webpack_require__(126);
 
 var _laptopIcon2 = _interopRequireDefault(_laptopIcon);
 
-var _hamburger = __webpack_require__(124);
+var _hamburger = __webpack_require__(125);
 
 var _hamburger2 = _interopRequireDefault(_hamburger);
 
-var _close = __webpack_require__(123);
+var _close = __webpack_require__(124);
 
 var _close2 = _interopRequireDefault(_close);
+
+var _reactFavicon = __webpack_require__(122);
+
+var _reactFavicon2 = _interopRequireDefault(_reactFavicon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -547,6 +551,7 @@ var App = function (_Component) {
       return _react2.default.createElement(
         'div',
         { className: 'home ' + (this.state.menu ? 'menu-active' : '') },
+        _react2.default.createElement(_reactFavicon2.default, { url: 'https://image.ibb.co/gNNgCd/laptop_icon.png' }),
         _react2.default.createElement(
           'div',
           { className: 'top-nav-wrapper' },
@@ -820,4 +825,4 @@ exports.default = portfolioData;
 
 /***/ })
 
-},[126]);
+},[127]);
