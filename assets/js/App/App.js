@@ -78,6 +78,7 @@ class App extends Component {
           </nav>
         </section>
         <section className="info-section">
+          <div className="wrapper">
           <Link className="logo-link" to="/">
             <div className="logo">
               <Icon className="icon" />
@@ -120,6 +121,7 @@ class App extends Component {
                 <i className="fa fa-linkedin" aria-hidden="true" />
               </a>
             </div>
+          </div>
           </div>
         </section>
         <section className="content-area">

@@ -6,7 +6,6 @@
 @import 'home';
 @import 'portfolio';
 @import 'contact';
-
 * {
   box-sizing: border-box;
 }
@@ -95,6 +94,9 @@ button {
   margin-right: 15px;
   margin-bottom: 15px;
   transition: $btnTransitions;
+  opacity: 0;
+  animation: fadeSlideIn 0.4s linear forwards;
+  animation-delay: 0.8s;
   &:hover {
     background: $black;
   }
@@ -114,6 +116,9 @@ button {
   text-transform: uppercase;
   letter-spacing: 3px;
   transition: $btnTransitions;
+  opacity: 0;
+  animation: fadeSlideIn 0.4s linear forwards;
+  animation-delay: 0.8s;
   &:hover {
     background: $black;
     color: $white;
@@ -181,4 +186,38 @@ button {
 
 .logo-link {
   text-decoration: none;
+}
+
+// animations
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeSlideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  0% {
+    opacity: 0;
+    transform: scale(0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
 }

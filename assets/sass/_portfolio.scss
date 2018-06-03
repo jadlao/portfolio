@@ -10,6 +10,9 @@
       }
       h5 {
         margin-bottom: 30px;
+        opacity: 0;
+        animation: fadeSlideIn 0.6s linear forwards;
+        animation-delay: 0.5s;
       }
     }
     .work-section {
@@ -26,6 +29,9 @@
           height: 343px;
           padding: 30px;
           transition: all 0.5s ease-in-out;
+          opacity: 0;
+          animation: fadeSlideIn 0.6s linear forwards;
+          animation-delay: 0.8s;
           &:hover {
             -webkit-box-shadow: 4px 4px 55px -1px rgba(0, 0, 0, 0.12);
             -moz-box-shadow: 4px 4px 55px -1px rgba(0, 0, 0, 0.12);

@@ -604,129 +604,133 @@ var App = function (_Component) {
           'section',
           { className: 'info-section' },
           _react2.default.createElement(
-            _reactRouterDom.Link,
-            { className: 'logo-link', to: '/' },
+            'div',
+            { className: 'wrapper' },
             _react2.default.createElement(
-              'div',
-              { className: 'logo' },
-              _react2.default.createElement(_laptopIcon2.default, { className: 'icon' }),
+              _reactRouterDom.Link,
+              { className: 'logo-link', to: '/' },
               _react2.default.createElement(
                 'div',
-                { className: 'icon-layer' },
+                { className: 'logo' },
+                _react2.default.createElement(_laptopIcon2.default, { className: 'icon' }),
                 _react2.default.createElement(
                   'div',
-                  { className: 'icon-info' },
-                  'Josef ',
-                  _react2.default.createElement('br', null),
-                  'Adlao'
-                ),
-                _react2.default.createElement(
-                  'div',
-                  { className: 'icon-info-mobile' },
-                  'JA'
+                  { className: 'icon-layer' },
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'icon-info' },
+                    'Josef ',
+                    _react2.default.createElement('br', null),
+                    'Adlao'
+                  ),
+                  _react2.default.createElement(
+                    'div',
+                    { className: 'icon-info-mobile' },
+                    'JA'
+                  )
                 )
               )
-            )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'info-box' },
-            _react2.default.createElement(
-              'h5',
-              null,
-              'Technologies'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'HTML5'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'CSS3'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'SASS'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'Javascript (ES5, ES6)'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'jQuery'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'Bootstrap'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'React'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'Gulp'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'PHP'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'Laravel'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              'MySQL'
-            ),
-            _react2.default.createElement(
-              'h5',
-              { className: 'contact' },
-              'Email'
-            ),
-            _react2.default.createElement(
-              'p',
-              null,
-              _react2.default.createElement(
-                'a',
-                { href: 'mailto:jadlao@gmail.com', target: '_blank' },
-                _data2.default[0].info.email
-              )
-            ),
-            _react2.default.createElement(
-              'h5',
-              null,
-              'Find Me On'
             ),
             _react2.default.createElement(
               'div',
-              { className: 'icon-section' },
+              { className: 'info-box' },
               _react2.default.createElement(
-                'a',
-                { href: _data2.default[0].info.twitter, target: '_blank' },
-                _react2.default.createElement('i', { className: 'fa fa-twitter', 'aria-hidden': 'true' })
+                'h5',
+                null,
+                'Technologies'
               ),
               _react2.default.createElement(
-                'a',
-                { href: _data2.default[0].info.github, target: '_blank' },
-                _react2.default.createElement('i', { className: 'fa fa-github', 'aria-hidden': 'true' })
+                'p',
+                null,
+                'HTML5'
               ),
               _react2.default.createElement(
-                'a',
-                { href: _data2.default[0].info.linkedin, target: '_blank' },
-                _react2.default.createElement('i', { className: 'fa fa-linkedin', 'aria-hidden': 'true' })
+                'p',
+                null,
+                'CSS3'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'SASS'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'Javascript (ES5, ES6)'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'jQuery'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'Bootstrap'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'React'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'Gulp'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'PHP'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'Laravel'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'MySQL'
+              ),
+              _react2.default.createElement(
+                'h5',
+                { className: 'contact' },
+                'Email'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                _react2.default.createElement(
+                  'a',
+                  { href: 'mailto:jadlao@gmail.com', target: '_blank' },
+                  _data2.default[0].info.email
+                )
+              ),
+              _react2.default.createElement(
+                'h5',
+                null,
+                'Find Me On'
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'icon-section' },
+                _react2.default.createElement(
+                  'a',
+                  { href: _data2.default[0].info.twitter, target: '_blank' },
+                  _react2.default.createElement('i', { className: 'fa fa-twitter', 'aria-hidden': 'true' })
+                ),
+                _react2.default.createElement(
+                  'a',
+                  { href: _data2.default[0].info.github, target: '_blank' },
+                  _react2.default.createElement('i', { className: 'fa fa-github', 'aria-hidden': 'true' })
+                ),
+                _react2.default.createElement(
+                  'a',
+                  { href: _data2.default[0].info.linkedin, target: '_blank' },
+                  _react2.default.createElement('i', { className: 'fa fa-linkedin', 'aria-hidden': 'true' })
+                )
               )
             )
           )
