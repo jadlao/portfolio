@@ -1,11 +1,11 @@
 {
-  "name": "RockyBoy",
+  "name": "",
   "version": "1.0.0",
-  "description": "Super Cool Framework",
+  "description": "",
   "main": "index.js",
-  "author": "joe santos garcia",
+  "author": "",
   "license": "MIT",
-  "homepage": "http://rocky.codingphase.com/",
+  "homepage": "",
   "dependencies": {
     "axios": "^0.16.1",
     "babel-core": "^6.24.1",
