@@ -7,6 +7,13 @@ var portfolioData = [
     image: 'https://image.ibb.co/mRRA8y/thumb_luxrentals.png'
   },
   {
+    title: 'Australian Open Email',
+    live_link: 'https://jadlao-aoemail.surge.sh/',
+    code_link: 'https://github.com/jadlao/ausopen-email',
+    technologies: 'HTML, CSS',
+    image: 'https://image.ibb.co/nO3n9y/thumb_aoemail.png'
+  },
+  {
     title: 'Spotify Clone',
     live_link: 'https://jadlao-spotify.surge.sh/',
     code_link: 'https://github.com/jadlao/spotify-clone',
@@ -17,7 +24,7 @@ var portfolioData = [
     title: 'LikeHome Website',
     live_link: 'https://jadlao-likehome.surge.sh/',
     code_link: 'https://github.com/jadlao/likehome',
-    technologies: 'HTML5, CSS3',
+    technologies: 'HTML, CSS',
     image: 'https://image.ibb.co/nBAWrc/thumb_likehome.png'
   },
   {
