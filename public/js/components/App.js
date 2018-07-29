@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 119:
+/***/ 120:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -151,7 +151,7 @@ exports.default = Contact;
 
 /***/ }),
 
-/***/ 120:
+/***/ 121:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -247,7 +247,7 @@ exports.default = Home;
 
 /***/ }),
 
-/***/ 121:
+/***/ 122:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -265,9 +265,15 @@ var _react2 = _interopRequireDefault(_react);
 
 __webpack_require__(69);
 
+__webpack_require__(70);
+
 var _portfolioData = __webpack_require__(69);
 
 var _portfolioData2 = _interopRequireDefault(_portfolioData);
+
+var _portfolioEmail = __webpack_require__(70);
+
+var _portfolioEmail2 = _interopRequireDefault(_portfolioEmail);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -287,6 +293,7 @@ var Portfolio = function (_Component) {
 
     _this.state = {};
     _this.loopProject = _this.loopProject.bind(_this);
+    _this.loopEmail = _this.loopEmail.bind(_this);
     return _this;
   }
 
@@ -294,6 +301,56 @@ var Portfolio = function (_Component) {
     key: 'loopProject',
     value: function loopProject() {
       return _portfolioData2.default.map(function (project, index) {
+        return _react2.default.createElement(
+          'div',
+          {
+            className: 'project-box',
+            key: index,
+            style: {
+              background: 'url("' + project.image + '") no-repeat center center'
+            }
+          },
+          _react2.default.createElement(
+            'div',
+            { className: 'grey-bg' },
+            _react2.default.createElement(
+              'p',
+              null,
+              _react2.default.createElement(
+                'a',
+                { href: project.live_link, target: '_blank' },
+                'Live site'
+              )
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              _react2.default.createElement(
+                'a',
+                { href: project.code_link, target: '_blank' },
+                'View code'
+              )
+            ),
+            _react2.default.createElement(
+              'p',
+              null,
+              'Technologies: ',
+              project.technologies
+            ),
+            _react2.default.createElement(
+              'h4',
+              null,
+              project.title
+            ),
+            _react2.default.createElement('i', { className: 'fa fa-angle-right' })
+          )
+        );
+      });
+    }
+  }, {
+    key: 'loopEmail',
+    value: function loopEmail() {
+      return _portfolioEmail2.default.map(function (project, index) {
         return _react2.default.createElement(
           'div',
           {
@@ -365,6 +422,16 @@ var Portfolio = function (_Component) {
               'div',
               { className: 'project-section' },
               this.loopProject()
+            ),
+            _react2.default.createElement(
+              'h5',
+              null,
+              'HTML Emails'
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'project-section' },
+              this.loopEmail()
             )
           )
         )
@@ -379,7 +446,7 @@ exports.default = Portfolio;
 
 /***/ }),
 
-/***/ 124:
+/***/ 125:
 /***/ (function(module, exports, __webpack_require__) {
 
 var React = __webpack_require__(5);
@@ -399,7 +466,7 @@ Close.default = Close;
 
 /***/ }),
 
-/***/ 125:
+/***/ 126:
 /***/ (function(module, exports, __webpack_require__) {
 
 var React = __webpack_require__(5);
@@ -419,7 +486,7 @@ Hamburger.default = Hamburger;
 
 /***/ }),
 
-/***/ 126:
+/***/ 127:
 /***/ (function(module, exports, __webpack_require__) {
 
 var React = __webpack_require__(5);
@@ -439,7 +506,7 @@ Icon.default = Icon;
 
 /***/ }),
 
-/***/ 127:
+/***/ 128:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -461,31 +528,31 @@ var _data = __webpack_require__(66);
 
 var _data2 = _interopRequireDefault(_data);
 
-var _Home = __webpack_require__(120);
+var _Home = __webpack_require__(121);
 
 var _Home2 = _interopRequireDefault(_Home);
 
-var _Portfolio = __webpack_require__(121);
+var _Portfolio = __webpack_require__(122);
 
 var _Portfolio2 = _interopRequireDefault(_Portfolio);
 
-var _Contact = __webpack_require__(119);
+var _Contact = __webpack_require__(120);
 
 var _Contact2 = _interopRequireDefault(_Contact);
 
-var _laptopIcon = __webpack_require__(126);
+var _laptopIcon = __webpack_require__(127);
 
 var _laptopIcon2 = _interopRequireDefault(_laptopIcon);
 
-var _hamburger = __webpack_require__(125);
+var _hamburger = __webpack_require__(126);
 
 var _hamburger2 = _interopRequireDefault(_hamburger);
 
-var _close = __webpack_require__(124);
+var _close = __webpack_require__(125);
 
 var _close2 = _interopRequireDefault(_close);
 
-var _reactFavicon = __webpack_require__(122);
+var _reactFavicon = __webpack_require__(123);
 
 var _reactFavicon2 = _interopRequireDefault(_reactFavicon);
 
@@ -777,7 +844,7 @@ var data = [{
   }
 }, {
   job_title: 'Web Developer',
-  home_text: "Hi, my name is Josef. This is my site and I'm a self-taught web developer from Sydney, Australia. Coming from a background in science, I naturally enjoy solving problems and the tech side of things. I love using React for the frontend, and am always eager to learn more technologies."
+  home_text: "Hi, my name is Josef, and I'm a self-taught web developer from Sydney, Australia. Coming from a background in science, I naturally enjoy solving problems and the tech side of things. I love using React for the frontend, and am always eager to learn more technologies."
 }];
 
 exports.default = data;
@@ -800,23 +867,11 @@ var portfolioData = [{
   technologies: 'React, SASS',
   image: 'https://image.ibb.co/mRRA8y/thumb_luxrentals.png'
 }, {
-  title: 'Australian Open Email',
-  live_link: 'https://jadlao-aoemail.surge.sh/',
-  code_link: 'https://github.com/jadlao/ausopen-email',
-  technologies: 'HTML, CSS',
-  image: 'https://image.ibb.co/nO3n9y/thumb_aoemail.png'
-}, {
   title: 'Spotify Clone',
   live_link: 'https://jadlao-spotify.surge.sh/',
   code_link: 'https://github.com/jadlao/spotify-clone',
   technologies: 'React, SASS',
   image: 'https://image.ibb.co/fSR5qS/thumb_spotify.png'
-}, {
-  title: 'LikeHome Website',
-  live_link: 'https://jadlao-likehome.surge.sh/',
-  code_link: 'https://github.com/jadlao/likehome',
-  technologies: 'HTML, CSS',
-  image: 'https://image.ibb.co/nBAWrc/thumb_likehome.png'
 }, {
   title: 'MySatoshiConverter',
   live_link: 'https://mysatoshiconverter.com/',
@@ -833,6 +888,45 @@ var portfolioData = [{
 
 exports.default = portfolioData;
 
+/***/ }),
+
+/***/ 70:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var portfolioEmail = [{
+  title: 'Australian Open Email',
+  live_link: 'https://jadlao-aoemail.surge.sh/',
+  code_link: 'https://github.com/jadlao/ausopen-email',
+  technologies: 'HTML, CSS',
+  image: 'https://image.ibb.co/nO3n9y/thumb_aoemail.png'
+}, {
+  title: 'Bondi Birch Email',
+  live_link: 'https://jadlao-bbemail.surge.sh/',
+  code_link: 'https://github.com/jadlao/furniture-email',
+  technologies: 'HTML, CSS',
+  image: 'https://image.ibb.co/jAKpUT/thumb_bondibirchemail.png'
+}, {
+  title: 'Hotel Deals Email',
+  live_link: 'https://jadlao-hotelemail.surge.sh/',
+  code_link: 'https://github.com/jadlao/hotel-email',
+  technologies: 'HTML, CSS',
+  image: 'https://image.ibb.co/dNKCio/thumb_hoteldealsemail.png'
+}, {
+  title: 'National Geographic Email',
+  live_link: 'https://jadlao-newsemail.surge.sh/',
+  code_link: 'https://github.com/jadlao/newsletter-email',
+  technologies: 'HTML, CSS',
+  image: 'https://image.ibb.co/jwQUUT/thumb_natgeoemail.png'
+}];
+
+exports.default = portfolioEmail;
+
 /***/ })
 
-},[127]);
+},[128]);
