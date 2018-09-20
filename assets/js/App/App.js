@@ -53,7 +53,7 @@ class App extends Component {
   render() {
     return (
       <div className={`home ${this.state.menu ? 'menu-active' : ''}`}>
-        <Favicon url="https://image.ibb.co/gNNgCd/laptop_icon.png"/>
+        <Favicon url="https://image.ibb.co/gNNgCd/laptop_icon.png" />
         <div className="top-nav-wrapper">
           <div className="menu-icon" onClick={this.toggleMenu}>
             {this.switchIcons()}
@@ -79,49 +79,49 @@ class App extends Component {
         </section>
         <section className="info-section">
           <div className="wrapper">
-          <Link className="logo-link" to="/">
-            <div className="logo">
-              <Icon className="icon" />
-              <div className="icon-layer">
-                <div className="icon-info">
-                  Josef <br />Adlao
+            <Link className="logo-link" to="/">
+              <div className="logo">
+                <Icon className="icon" />
+                <div className="icon-layer">
+                  <div className="icon-info">
+                    Josef <br />
+                    Adlao
+                  </div>
+                  <div className="icon-info-mobile">JA</div>
                 </div>
-                <div className="icon-info-mobile">JA</div>
+              </div>
+            </Link>
+            <div className="info-box">
+              <h5>Technologies</h5>
+              <p>HTML5</p>
+              <p>CSS3</p>
+              <p>SASS</p>
+              <p>Javascript (ES5, ES6)</p>
+              <p>jQuery</p>
+              <p>Bootstrap</p>
+              <p>React</p>
+              <p>PHP</p>
+              <p>Laravel</p>
+              <p>MySQL</p>
+              <h5 className="contact">Email</h5>
+              <p>
+                <a href="mailto:jadlao@gmail.com" target="_blank">
+                  {data[0].info.email}
+                </a>
+              </p>
+              <h5>Find Me On</h5>
+              <div className="icon-section">
+                <a href={data[0].info.twitter} target="_blank">
+                  <i className="fa fa-twitter" aria-hidden="true" />
+                </a>
+                <a href={data[0].info.github} target="_blank">
+                  <i className="fa fa-github" aria-hidden="true" />
+                </a>
+                <a href={data[0].info.linkedin} target="_blank">
+                  <i className="fa fa-linkedin" aria-hidden="true" />
+                </a>
               </div>
             </div>
-          </Link>
-          <div className="info-box">
-            <h5>Technologies</h5>
-            <p>HTML5</p>
-            <p>CSS3</p>
-            <p>SASS</p>
-            <p>Javascript (ES5, ES6)</p>
-            <p>jQuery</p>
-            <p>Bootstrap</p>
-            <p>React</p>
-            <p>Gulp</p>
-            <p>PHP</p>
-            <p>Laravel</p>
-            <p>MySQL</p>
-            <h5 className="contact">Email</h5>
-            <p>
-              <a href="mailto:jadlao@gmail.com" target="_blank">
-                {data[0].info.email}
-              </a>
-            </p>
-            <h5>Find Me On</h5>
-            <div className="icon-section">
-              <a href={data[0].info.twitter} target="_blank">
-                <i className="fa fa-twitter" aria-hidden="true" />
-              </a>
-              <a href={data[0].info.github} target="_blank">
-                <i className="fa fa-github" aria-hidden="true" />
-              </a>
-              <a href={data[0].info.linkedin} target="_blank">
-                <i className="fa fa-linkedin" aria-hidden="true" />
-              </a>
-            </div>
-          </div>
           </div>
         </section>
         <section className="content-area">
