@@ -101,7 +101,6 @@ class App extends Component {
               <p>Bootstrap</p>
               <p>React</p>
               <p>PHP</p>
-              <p>Laravel</p>
               <p>MySQL</p>
               <p>WordPress</p>
               <h5 className="contact">Email</h5>
