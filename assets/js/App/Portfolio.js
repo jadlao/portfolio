@@ -80,9 +80,9 @@ export default class Portfolio extends Component {
             <h5>Latest works</h5>
           </div>
           <div className="work-section">
-            {/* <h5>HTML Emails</h5> */}
-            <div className="project-section">{this.loopEmail()}</div>
             <div className="project-section">{this.loopProject()}</div>
+            <h5>HTML Emails</h5>
+            <div className="project-section">{this.loopEmail()}</div>
           </div>
         </div>
       </div>

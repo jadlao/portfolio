@@ -103,6 +103,7 @@ class App extends Component {
               <p>PHP</p>
               <p>Laravel</p>
               <p>MySQL</p>
+              <p>WordPress</p>
               <h5 className="contact">Email</h5>
               <p>
                 <a href="mailto:jadlao@gmail.com" target="_blank">
