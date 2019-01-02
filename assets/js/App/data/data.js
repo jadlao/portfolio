@@ -1,7 +1,7 @@
 var data = [
   {
     info: {
-      email: 'jadlao@gmail.com',
+      email: 'josef@josefadlao.com',
       twitter: 'https://twitter.com/josefadlao',
       github: 'https://github.com/jadlao',
       linkedin: 'https://www.linkedin.com/in/josefadlao/'
