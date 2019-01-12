@@ -749,11 +749,6 @@ var App = function (_Component) {
               _react2.default.createElement(
                 'p',
                 null,
-                'Laravel'
-              ),
-              _react2.default.createElement(
-                'p',
-                null,
                 'MySQL'
               ),
               _react2.default.createElement(
@@ -771,7 +766,7 @@ var App = function (_Component) {
                 null,
                 _react2.default.createElement(
                   'a',
-                  { href: 'mailto:jadlao@gmail.com', target: '_blank' },
+                  { href: 'mailto:josef@josefadlao.com', target: '_blank' },
                   _data2.default[0].info.email
                 )
               ),
@@ -837,7 +832,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 var data = [{
   info: {
-    email: 'jadlao@gmail.com',
+    email: 'josef@josefadlao.com',
     twitter: 'https://twitter.com/josefadlao',
     github: 'https://github.com/jadlao',
     linkedin: 'https://www.linkedin.com/in/josefadlao/'
@@ -866,6 +861,12 @@ var portfolioData = [{
   code_link: 'https://github.com/jadlao/react-realestate',
   technologies: 'React, SASS',
   image: 'https://image.ibb.co/mRRA8y/thumb_luxrentals.png'
+}, {
+  title: 'Vivienne Online Store',
+  live_link: 'https://wp-ecommerce.josefadlao.com/',
+  code_link: 'https://wp-ecommerce.josefadlao.com/',
+  technologies: 'WordPress, Woocommerce',
+  image: 'https://i.ibb.co/Trs3bBz/thumb-vivienne.png'
 }, {
   title: 'Spotify Landing Page',
   live_link: 'https://jadlao-spotify.surge.sh/',

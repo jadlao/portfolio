@@ -7,6 +7,13 @@ var portfolioData = [
     image: 'https://image.ibb.co/mRRA8y/thumb_luxrentals.png'
   },
   {
+    title: 'Vivienne Online Store',
+    live_link: 'https://wp-ecommerce.josefadlao.com/',
+    code_link: 'https://wp-ecommerce.josefadlao.com/',
+    technologies: 'WordPress, Woocommerce',
+    image: 'https://i.ibb.co/Trs3bBz/thumb-vivienne.png'
+  },
+  {
     title: 'Spotify Landing Page',
     live_link: 'https://jadlao-spotify.surge.sh/',
     code_link: 'https://github.com/jadlao/spotify-clone',
