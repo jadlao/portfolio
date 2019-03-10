@@ -14,6 +14,13 @@ var portfolioData = [
     image: 'https://i.ibb.co/Trs3bBz/thumb-vivienne.png'
   },
   {
+    title: 'SushiEATS Restaurant Site',
+    live_link: 'https://wp-sushi.josefadlao.com/',
+    code_link: 'https://github.com/jadlao/wp-sushisite',
+    technologies: 'WordPress',
+    image: 'https://i.ibb.co/wz2fYF7/thumb-sushi.png'
+  },
+  {
     title: 'Spotify Landing Page',
     live_link: 'https://jadlao-spotify.surge.sh/',
     code_link: 'https://github.com/jadlao/spotify-clone',

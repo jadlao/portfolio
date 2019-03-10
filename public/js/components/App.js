@@ -744,6 +744,11 @@ var App = function (_Component) {
               _react2.default.createElement(
                 'p',
                 null,
+                'Redux'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
                 'PHP'
               ),
               _react2.default.createElement(
@@ -868,6 +873,12 @@ var portfolioData = [{
   technologies: 'WordPress, Woocommerce',
   image: 'https://i.ibb.co/Trs3bBz/thumb-vivienne.png'
 }, {
+  title: 'SushiEATS Restaurant Site',
+  live_link: 'https://wp-sushi.josefadlao.com/',
+  code_link: 'https://github.com/jadlao/wp-sushisite',
+  technologies: 'WordPress',
+  image: 'https://i.ibb.co/wz2fYF7/thumb-sushi.png'
+}, {
   title: 'Spotify Landing Page',
   live_link: 'https://jadlao-spotify.surge.sh/',
   code_link: 'https://github.com/jadlao/spotify-clone',
@@ -900,18 +911,6 @@ var portfolioEmail = [{
   code_link: 'https://github.com/jadlao/furniture-email',
   technologies: 'HTML, CSS',
   image: 'https://image.ibb.co/jAKpUT/thumb_bondibirchemail.png'
-}, {
-  title: 'Hotel Deals Email',
-  live_link: 'https://jadlao-hotelemail.surge.sh/',
-  code_link: 'https://github.com/jadlao/hotel-email',
-  technologies: 'HTML, CSS',
-  image: 'https://image.ibb.co/dNKCio/thumb_hoteldealsemail.png'
-}, {
-  title: 'National Geographic Email',
-  live_link: 'https://jadlao-newsemail.surge.sh/',
-  code_link: 'https://github.com/jadlao/newsletter-email',
-  technologies: 'HTML, CSS',
-  image: 'https://image.ibb.co/jwQUUT/thumb_natgeoemail.png'
 }];
 
 exports.default = portfolioEmail;
