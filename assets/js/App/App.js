@@ -101,6 +101,7 @@ class App extends Component {
               <p>Bootstrap</p>
               <p>React</p>
               <p>Redux</p>
+              <p>NodeJS</p>
               <p>PHP</p>
               <p>MySQL</p>
               <p>WordPress</p>

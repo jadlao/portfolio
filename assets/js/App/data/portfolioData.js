@@ -26,6 +26,13 @@ var portfolioData = [
     code_link: 'https://github.com/jadlao/spotify-clone',
     technologies: 'React, SASS',
     image: 'https://image.ibb.co/fSR5qS/thumb_spotify.png'
+  },
+  {
+    title: 'MySatoshiConverter',
+    live_link: 'https://mysatoshiconverter.com/',
+    code_link: 'https://mysatoshiconverter.com/',
+    technologies: 'React, SASS',
+    image: 'https://image.ibb.co/eUnZjn/thumb-mysatoshi.png'
   }
 ];
 
