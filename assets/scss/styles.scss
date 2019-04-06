@@ -29,7 +29,7 @@ a {
   #home {
     height: 100%;
     background: #f3f3f3;
-    padding: 120px 110px 0;
+    padding: 100px 110px 0;
     position: relative;
     header {
       nav {
@@ -38,11 +38,15 @@ a {
           list-style: none;
           display: inline-block;
           margin-left: 20px;
+          position: relative;
+          z-index: 999;
         }
       }
     }
     .home-text {
       padding: 230px 0 100px 140px;
+      position: relative;
+      perspective: 30px; // for bird bg
       h1 {
         font-size: 3.2rem;
         font-weight: 100;
@@ -50,6 +54,11 @@ a {
           font-size: 3rem;
           font-weight: 900;
         }
+        z-index: 10;
+        position: relative;
+        opacity: 0;
+        animation: fadeSlideIn 0.8s linear forwards;
+        animation-delay: 0.4s;
       }
       h3 {
         margin-top: 20px;
@@ -58,6 +67,21 @@ a {
         border-bottom: 1px solid black;
         padding-bottom: 5px;
         width: 150px;
+        z-index: 10;
+        position: relative;
+        opacity: 0;
+        animation: fadeSlideIn 0.8s linear forwards;
+        animation-delay: 0.8s;
+      }
+      img {
+        height: 440px;
+        position: absolute;
+        right: 0;
+        top: -30px;
+        z-index: 1;
+        transition: transform 0.5s;
+        -webkit-transition: transform 0.5s;
+        cursor: pointer;
       }
     }
     .slanted-triangle-bottom {
@@ -376,6 +400,17 @@ a {
   }
 }
 
+// bird image resize
+@media screen and (max-width: 810px) {
+  #home {
+    .home-text {
+      img {
+        top: -100px !important;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 650px) {
   #home {
     padding: 50px 50px 0 !important;
@@ -451,5 +486,17 @@ a {
   }
   footer {
     padding: 10px 60px !important;
+  }
+}
+
+// animations
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
