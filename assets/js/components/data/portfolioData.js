@@ -17,7 +17,7 @@ var portfolioData = [
 		title: 'SushiEATS Restaurant Site',
 		live_link: 'https://wp-sushi.josefadlao.com/',
 		code_link: 'https://github.com/jadlao/wp-sushisite',
-		technologies: 'WordPress',
+		technologies: 'WordPress, PHP',
 		image: 'https://i.ibb.co/wz2fYF7/thumb-sushi.png'
 	},
 	{
@@ -31,7 +31,7 @@ var portfolioData = [
 		title: 'MySatoshiConverter',
 		live_link: 'https://mysatoshiconverter.com/',
 		code_link: 'https://mysatoshiconverter.com/',
-		technologies: 'React, SASS',
+		technologies: 'React, SASS, REST APIs',
 		image: 'https://image.ibb.co/eUnZjn/thumb-mysatoshi.png'
 	},
 	{
