@@ -1,6 +1,6 @@
 var portfolioData = [
 	{
-		title: 'LuxRentals',
+		title: 'LuxRentals Real Estate Site',
 		live_link: 'https://jadlao-realestate.surge.sh/',
 		code_link: 'https://github.com/jadlao/react-realestate',
 		technologies: 'React, SASS',
@@ -35,18 +35,32 @@ var portfolioData = [
 		image: 'https://image.ibb.co/eUnZjn/thumb-mysatoshi.png'
 	},
 	{
-		title: 'Australian Open Email',
+		title: 'Australian Open Promotional Email',
 		live_link: 'https://jadlao-aoemail.surge.sh/',
 		code_link: 'https://github.com/jadlao/ausopen-email',
 		technologies: 'HTML, CSS',
 		image: 'https://image.ibb.co/nO3n9y/thumb_aoemail.png'
 	},
 	{
-		title: 'Bondi Birch Email',
+		title: 'Bondi Birch Promotional Email',
 		live_link: 'https://jadlao-bbemail.surge.sh/',
 		code_link: 'https://github.com/jadlao/furniture-email',
 		technologies: 'HTML, CSS',
 		image: 'https://image.ibb.co/jAKpUT/thumb_bondibirchemail.png'
+	},
+	{
+		title: 'HotelDeals Promotional Email',
+		live_link: 'https://jadlao-hotelemail.surge.sh/',
+		code_link: 'https://github.com/jadlao/hotel-email',
+		technologies: 'HTML, CSS',
+		image: 'https://image.ibb.co/dNKCio/thumb-hoteldealsemail.png'
+	},
+	{
+		title: 'National Geographic Newsletter Email',
+		live_link: 'https://jadlao-newsemail.surge.sh/',
+		code_link: 'https://github.com/jadlao/newsletter-email',
+		technologies: 'HTML, CSS',
+		image: 'https://image.ibb.co/jwQUUT/thumb-natgeoemail.png'
 	}
 ];
 
