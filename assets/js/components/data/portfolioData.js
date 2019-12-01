@@ -14,6 +14,13 @@ var portfolioData = [
 		image: 'https://i.ibb.co/Trs3bBz/thumb-vivienne.png'
 	},
 	{
+		title: 'Arts Website',
+		live_link: 'https://atlas-design.surge.sh/',
+		code_link: 'https://github.com/jadlao/atlas-design',
+		technologies: 'SASS, jQuery',
+		image: 'https://i.ibb.co/cY51k9r/thumb-art.png'
+	},
+	{
 		title: 'SushiEATS Restaurant Site',
 		live_link: 'https://wp-sushi.josefadlao.com/',
 		code_link: 'https://github.com/jadlao/wp-sushisite',
