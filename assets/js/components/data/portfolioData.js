@@ -63,11 +63,18 @@ var portfolioData = [
 		image: 'https://image.ibb.co/dNKCio/thumb-hoteldealsemail.png'
 	},
 	{
-		title: 'National Geographic Newsletter Email',
+		title: 'National Geo Newsletter Email',
 		live_link: 'https://jadlao-newsemail.surge.sh/',
 		code_link: 'https://github.com/jadlao/newsletter-email',
 		technologies: 'HTML, CSS',
 		image: 'https://image.ibb.co/jwQUUT/thumb-natgeoemail.png'
+	},
+	{
+		title: 'AllBirds Transactional Email',
+		live_link: 'https://jadlao-allbirds-email.surge.sh/',
+		code_link: 'https://github.com/jadlao/transaction-email/tree/master',
+		technologies: 'HTML, CSS',
+		image: 'https://i.ibb.co/THB8DV6/thumb-transactional.png'
 	}
 ];
 

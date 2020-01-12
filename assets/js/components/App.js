@@ -169,7 +169,6 @@ class App extends Component {
 						<i className="devicon-php-plain colored" />
 						<i className="devicon-mysql-plain-wordmark colored" />
 						<i className="devicon-wordpress-plain-wordmark colored" />
-						{/* later add node, ruby rails, react native, redux */}
 					</div>
 					<div className="about-text">
 						<h4>{data[1].about_h4text}</h4>
@@ -216,7 +215,7 @@ class App extends Component {
 					<hr />
 				</section>
 
-				<footer>&copy; 2019 Copyright. Josef Adlao</footer>
+				<footer>&copy; 2020 Copyright. Josef Adlao</footer>
 			</div>
 		);
 	}
