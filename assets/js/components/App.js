@@ -195,9 +195,9 @@ class App extends Component {
 						<p>03</p>
 						<h1>Contact</h1>
 					</div>
-					<p>
+					{/* <p>
 						<a href="mailto:josef@josefadlao.com">josef@josefadlao.com</a>
-					</p>
+					</p> */}
 					<div className="social">
 						{/* <a href="https://www.instagram.com/josef.codes/">
 							<i className="fab fa-instagram" />
