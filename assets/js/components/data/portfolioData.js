@@ -34,20 +34,20 @@ var portfolioData = [
 		technologies: 'React, SASS',
 		image: 'https://image.ibb.co/fSR5qS/thumb_spotify.png'
 	},
-	{
-		title: 'MySatoshiConverter',
-		live_link: 'https://mysatoshiconverter.com/',
-		code_link: 'https://mysatoshiconverter.com/',
-		technologies: 'React, SASS, REST APIs',
-		image: 'https://image.ibb.co/eUnZjn/thumb-mysatoshi.png'
-	},
-	{
-		title: 'Australian Open Promotional Email',
-		live_link: 'https://jadlao-aoemail.surge.sh/',
-		code_link: 'https://github.com/jadlao/ausopen-email',
-		technologies: 'HTML, CSS',
-		image: 'https://image.ibb.co/nO3n9y/thumb_aoemail.png'
-	},
+	// {
+	// 	title: 'MySatoshiConverter',
+	// 	live_link: 'https://mysatoshiconverter.com/',
+	// 	code_link: 'https://mysatoshiconverter.com/',
+	// 	technologies: 'React, SASS, REST APIs',
+	// 	image: 'https://image.ibb.co/eUnZjn/thumb-mysatoshi.png'
+	// },
+	// {
+	// 	title: 'Australian Open Promotional Email',
+	// 	live_link: 'https://jadlao-aoemail.surge.sh/',
+	// 	code_link: 'https://github.com/jadlao/ausopen-email',
+	// 	technologies: 'HTML, CSS',
+	// 	image: 'https://image.ibb.co/nO3n9y/thumb_aoemail.png'
+	// },
 	{
 		title: 'Bondi Birch Promotional Email',
 		live_link: 'https://jadlao-bbemail.surge.sh/',
@@ -55,13 +55,13 @@ var portfolioData = [
 		technologies: 'HTML, CSS',
 		image: 'https://image.ibb.co/jAKpUT/thumb_bondibirchemail.png'
 	},
-	{
-		title: 'HotelDeals Promotional Email',
-		live_link: 'https://jadlao-hotelemail.surge.sh/',
-		code_link: 'https://github.com/jadlao/hotel-email',
-		technologies: 'HTML, CSS',
-		image: 'https://image.ibb.co/dNKCio/thumb-hoteldealsemail.png'
-	},
+	// {
+	// 	title: 'HotelDeals Promotional Email',
+	// 	live_link: 'https://jadlao-hotelemail.surge.sh/',
+	// 	code_link: 'https://github.com/jadlao/hotel-email',
+	// 	technologies: 'HTML, CSS',
+	// 	image: 'https://image.ibb.co/dNKCio/thumb-hoteldealsemail.png'
+	// },
 	{
 		title: 'National Geo Newsletter Email',
 		live_link: 'https://jadlao-newsemail.surge.sh/',
