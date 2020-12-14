@@ -215,7 +215,7 @@ class App extends Component {
 					<hr />
 				</section>
 
-				<footer>&copy; 2020 Copyright. Josef Adlao</footer>
+				<footer>&copy; 2021 Copyright. Josef Adlao</footer>
 			</div>
 		);
 	}
